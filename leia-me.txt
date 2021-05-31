@@ -1,0 +1,7 @@
+	***LEIA ISSO ANTES DE EXECUTAR A API***
+
+	Para implementar esta aplicação de maneira correta, você deve alterar as informações da string de conexão com o banco de dados.
+
+	O nome da string de conexão chama-se 'ApiCon', ela encontra-se no arquivo "appsettings.json".
+
+	Qualquer dúvida, entrar em contato pelo email ds507556@gmail.com. Obrigado.
