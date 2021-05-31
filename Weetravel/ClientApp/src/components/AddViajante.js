@@ -52,10 +52,12 @@ export class AddViajante extends Component {
         event.preventDefault();
         const data = new FormData(event.target);
         if (this.state.viajante.id) {
+            // eslint-disable-next-line
             const response1 = fetch('api/Viajantes/' + this.state.viajante.id, { method: "PUT", body: data });
             this.props.history.push("/fetch-viajante");
         }
         else {
+            // eslint-disable-next-line
             const response2 = fetch('api/Viajantes/', { method: "POST", body: data });
             this.props.history.push("/fetch-viajante");
         }
