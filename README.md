@@ -6,6 +6,10 @@
 
 	Edite os campos "Username", "Database" e "Password", contidos na string de conexão "ApiCon" que encontra-se no arquivo "appsettings.json".
 	
-	Após as configurações da string de conhexão terem sido feitas corretamente, abra o terminal no diretório "/Weetravel/ClientApp" e execute o comando "npm start".
+	Após as configurações da string de conhexão terem sido feitas corretamente, abra o terminal no diretório "/Weetravel/Weetravel" e execute o comando "dotnet run".
+	
+	A aplicação estará sendo executada em:
+	
+	http://localhost:5000 e https://localhost:5001 
 
 	Qualquer dúvida, entrar em contato. Obrigado.
