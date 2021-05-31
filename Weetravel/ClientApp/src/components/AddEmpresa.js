@@ -51,10 +51,12 @@ export class AddEmpresa extends Component {
         event.preventDefault();
         const data = new FormData(event.target);
         if (this.state.empresa.id) {
+            // eslint-disable-next-line
             const response1 = fetch('api/Empresas/' + this.state.empresa.id, { method: "PUT", body: data });
             this.props.history.push("/fetch-empresa");
         }
         else {
+            // eslint-disable-next-line
             const response2 = fetch('api/Empresas/', { method: "POST", body: data });
             this.props.history.push("/fetch-empresa");
         }
